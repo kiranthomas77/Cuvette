@@ -2,14 +2,80 @@
 <html>
 <head>
     <title>My Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        h3 {
+            color: brown;
+        }
+        h2 {
+            color: blue;
+            text-align: center;
+        }
+        .contact {
+            text-align: center;
+            color: green;
+        }
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image img {
+            border-radius: 20%;
+            width: 70px;
+            height: 70px;
+        }
+    </style>
+    
 </head>
 <body>
     <div class="image">
-        <img src = "./profile-pic.png" alt="profile pic" class = "center">
+        <img src = "./profile-pic.png" alt="profile pic">
     </div>
 
-    <h2 class="styled-heading"> Profile Summary</h2>
-    <b margin =100px>Summary:</b><text> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatibus consectetur tenetur rem illo quisquam quia soluta quasi quidem odit.</text>
-</body>
+    <H2 >Kiran Thomas George</H2>
+    <p class="contact">949494949 | linked/kiran |Software Engineer</p>
+    <div>
+        <h3><u>Profile Summary</u></h3>
+        <div>
+            <p></p><b>Summary: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <hr>
+        <h3><u>Education</u></h3>
+        <ol type="I">
+            <li>ABC Engg College</li>
+                <ul>
+                    <li>2019- 20123</li>
+                    <li>Information Technology</li>
+                    <li>9.2 GPA</li>
+                </ul>
+            <li>XYZ High School</li>
+                <ul>
+                    <li>2019</li>
+                    <li>PCM</li>
+                    <li> 90%</li>
+                </ul>
+        </ol>
+        <hr>
+
+        <h3><u>Experience</u></h3>
+        <ul>
+            <li> Software Engineer at ABC Tech</li>
+            <li> Intern at xyz Solutions</li>
+        </ul>
+        <hr>
+
+        <h3><u>Skills</u></h3>
+        <ul>
+            <li> Web Development</li>
+            <li> Database Management</li>
+        </ul>
+        <hr>
+
+        <h3><u>Certifications</u></h3>
+        <ul>
+            <li> Certified Frontend Developer ABC Academy</li>
+            <li> Database Management Certification</li>
+        </ul>
+        <p><b>Summary : Contact </b>kiran@example.com</p>
+    </div>
 </html>
