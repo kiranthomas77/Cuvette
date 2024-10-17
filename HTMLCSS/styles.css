@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.text-box {
+    flex: 1;
+    background-color: #d3bff9;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4f3e6c;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #e8e8e8;
+    width: 23%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.count {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card p {
+    margin: 10px 0 0;
+}
+
+.card:nth-child(1) {
+    background-color: #b8b8ff;
+    color: #ffffff;
+}
+
+.card:nth-child(2) {
+    background-color: #a180ff;
+    color: #ffffff;
+}
+
+.card:nth-child(3) {
+    background-color: #e89bff;
+    color: #ffffff;
+}
+
+.card:nth-child(4) {
+    background-color: #4c4c4c;
+    color: #ffffff;
+}
